@@ -1,0 +1,84 @@
+body {
+    font-family: 'Source Code Pro', monospace;
+    background-color: black;
+    color: #ffffff;
+    text-shadow: 0px 0px 10px #fff;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    user-select: none;
+}
+
+.background-gif {
+    display: block;
+    height: 100%;
+    width: 100%;
+    opacity: 0.5;
+
+}
+
+.glimmer {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 80%;
+    display: block;
+    opacity: 0.5;
+    color:black;
+    box-shadow: 0px 0px 50px #807d7d;
+}
+
+.listen {
+    position: absolute;
+    top: 25%;
+    left: 80%;
+    transform: translate(-50%, -50%);
+    font-size: x-large;
+}
+
+.listen::after {
+    content: "listen ↓↓↓↓↓↓↓↓ thanks";
+}
+
+.listen:hover::after {
+    content: "you won't regret it :)"
+}
+
+.ah {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    display: block;
+    font-size: larger;
+}
+
+.ah:hover {
+    text-decoration: none;
+    transition: all 0.3s ease;
+    color: black;
+}
+
+.ah:link {
+    color: white;
+    text-decoration: none;
+}
+
+.ah:visited{
+    color: white;
+    text-decoration: none;
+}
+
+.centered {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: x-large;
+  }
+
+
+.centered:hover {
+    transition: all 0.3s ease;
+    color: black;
+}
